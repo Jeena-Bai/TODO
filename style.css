@@ -1,0 +1,38 @@
+body {
+    background-color: #f7f7f7;
+}
+
+h2 {
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item-info {
+    background-color: #d9edf7;
+}
+
+.list-group-item-success {
+    background-color: #dff0d8;
+}
+
+.active {
+    background-color: #5bc0de !important;
+    color: white;
+}
+
+.disabledList {
+    background-color: #f5f5f5 !important;
+    text-decoration: line-through;
+}
+
